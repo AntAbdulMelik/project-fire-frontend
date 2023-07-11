@@ -1,3 +1,111 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* INTER FONT */
+/* Font Weight: 400 */
+@font-face {
+	font-family: 'InterRegular';
+	src: url('src/assets/fonts/InterRegular.ttf') format('truetype');
+}
+
+/* Font Weight: 500 */
+@font-face {
+	font-family: 'InterMedium';
+	src: url('src/assets/fonts/InterMedium.ttf') format('truetype');
+}
+
+/* Font Weight: 600 */
+@font-face {
+	font-family: 'InterSemiBold';
+	src: url('src/assets/fonts/InterSemiBold.ttf') format('truetype');
+}
+
+/* Font Weight: 700 */
+@font-face {
+	font-family: 'InterBold';
+	src: url('src/assets/fonts/InterBold.ttf') format('truetype');
+}
+
+/* GILROY FONT */
+/* Font Weight: 400 */
+@font-face {
+	font-family: 'GilroyRegular';
+	src: url('src/assets/fonts/GilroyRegular.ttf') format('truetype');
+}
+
+/* Font Weight: 500 */
+@font-face {
+	font-family: 'GilroyMedium';
+	src: url('src/assets/fonts/GilroyMedium.ttf') format('truetype');
+}
+
+/* Font Weight: 600 */
+@font-face {
+	font-family: 'GilroySemiBold';
+	src: url('src/assets/fonts/GilroySemiBold.ttf') format('truetype');
+}
+
+/* Font Weight: 700 */
+@font-face {
+	font-family: 'GilroyBold';
+	src: url('src/assets/fonts/GilroyBold.ttf') format('truetype');
+}
+
+/* HELVETICA NEUE */
+/* Font Weight: 400 */
+@font-face {
+	font-family: 'HelveticaNeueRegular';
+	src: url('src/assets/fonts/HelveticaNeueRegular.ttf') format('truetype');
+}
+
+/* Font Weight: 500 */
+@font-face {
+	font-family: 'HelveticaNeueMedium';
+	src: url('src/assets/fonts/HelveticaNeueMedium.ttf') format('truetype');
+}
+
+/* Font Weight: 700 */
+@font-face {
+	font-family: 'HelveticaNeueBold';
+	src: url('src/assets/fonts/HelveticaNeueBold.ttf') format('truetype');
+}
+
+/* OPENSANS */
+/* Font Weight: 400 */
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('src/assets/fonts/OpenSansRegular.ttf') format('truetype');
+}
+
+/* Font Weight: 500 */
+@font-face {
+	font-family: 'OpenSansMedium';
+	src: url('src/assets/fonts/OpenSansMedium.ttf') format('truetype');
+}
+
+/* Font Weight: 600 */
+@font-face {
+	font-family: 'OpenSansSemiBold';
+	src: url('src/assets/fonts/OpenSansSemiBold.ttf') format('truetype');
+}
+
+/* Font Weight: 700 */
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('src/assets/fonts/OpenSansBold.ttf') format('truetype');
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+}
